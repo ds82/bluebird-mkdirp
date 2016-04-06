@@ -4,7 +4,7 @@
   "description": "mkdirp promise version using bluebird",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "keywords": ["mkdirp", "bluebird", "promise"],
   "author": "Dennis Saenger <npm-16 <(AT)> mail.ds82.de",

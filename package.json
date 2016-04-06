@@ -1,17 +1,28 @@
 {
   "name": "bluebird-mkdirp",
-  "version": "0.0.0",
   "description": "mkdirp promise version using bluebird",
   "main": "index.js",
+  "version": "0.0.0",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "keywords": ["mkdirp", "bluebird", "promise"],
+  "keywords": [
+    "mkdirp",
+    "bluebird",
+    "promise"
+  ],
   "author": "Dennis Saenger <npm-16 <(AT)> mail.ds82.de",
   "license": "ISC",
   "peerDependencies": {
     "bluebird": ">2",
     "mkdirp": "*"
   },
-  "repository": "ds82/bluebird-mkdirp"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ds82/bluebird-mkdirp.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
+  }
 }

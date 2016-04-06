@@ -1,0 +1,17 @@
+{
+  "name": "bluebird-mkdirp",
+  "version": "0.0.0",
+  "description": "mkdirp promise version using bluebird",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mkdirp", "bluebird", "promise"],
+  "author": "Dennis Saenger <npm-16 <(AT)> mail.ds82.de",
+  "license": "ISC",
+  "peerDependencies": {
+    "bluebird": ">2",
+    "mkdirp": "*"
+  },
+  "repository": "ds82/bluebird-mkdirp"
+}

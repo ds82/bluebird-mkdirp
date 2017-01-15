@@ -4,7 +4,7 @@
 
 **WARNING**
 
-[![npm version](https://img.shields.io/badge/NPM-deprecated-red.svg)](https://github.com/maxkoryukov/mkdirp-bluebird)
+[![npm version](https://img.shields.io/badge/NPM-deprecated-red.svg)](https://github.com/maxkoryukov/mkdirp-bluebird/issues/2)
 
 This repository and corresponding NPM package are deprecated in favor of [**mkdirp-bluebird**](https://www.npmjs.com/package/mkdirp-bluebird).
 

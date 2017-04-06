@@ -1,7 +1,6 @@
-# bluebird-mkdirp
+# bluebird-mkdirp [![Build Status](https://secure.travis-ci.org/ds82/tiny-di.svg)](http://travis-ci.org/ds82/tiny-di) [![version](https://img.shields.io/npm/v/bluebird-mkdirp.svg)](https://www.npmjs.com/package/bluebird-mkdirp)
 
 promisify'd version of mkdirp using bluebird and mkdirp as `peerDependencies`.
-
 
 # Install
 

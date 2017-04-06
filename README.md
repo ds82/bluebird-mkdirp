@@ -4,9 +4,11 @@ promisify'd version of mkdirp using bluebird and mkdirp as `peerDependencies`.
 
 # Install
 
-// You don't need to install bluebord if your projects already uses a bluebird >= v2
+```
+// mkdirp and bluebird are peerDependencies. You don't need to install them if you already use them in your projects
 
-```npm install --save mkdirp bluebird bluebird-mkdirp```
+npm install --save mkdirp bluebird bluebird-mkdirp
+```
 
 # Usage
 

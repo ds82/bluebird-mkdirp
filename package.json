@@ -23,6 +23,8 @@
     "url": "https://github.com/ds82/bluebird-mkdirp.git"
   },
   "devDependencies": {
+    "expect": "1.20.2",
+    "proxyquire": "1.7.11",
     "semantic-release": "^4.3.5"
   }
 }

@@ -4,7 +4,7 @@
   "main": "index.js",
   "version": "0.0.0",
   "scripts": {
-    "test": "exit 0",
+    "test": "node test.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [

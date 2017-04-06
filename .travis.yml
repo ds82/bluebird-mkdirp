@@ -1,8 +1,5 @@
 sudo: false
 language: node_js
-cache:
-  directories:
-    - node_modules
 notifications:
   email: false
 node_js:
@@ -13,7 +10,8 @@ node_js:
   - '0.10'
 before_install:
 before_script:
-  - npm prune
+  - rm -rf node_modules
+  - npm install
 after_success:
   - 'curl -Lo travis_after_all.py https://git.io/travis_after_all'
   - python travis_after_all.py
